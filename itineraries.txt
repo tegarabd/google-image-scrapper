@@ -1,0 +1,135 @@
+[
+'name' => 'Ubud',
+'description' => 'Known for its lush rice terraces, art scene, and cultural heritage.',
+'image_url' => 'https://th.bing.com/th/id/OIP.HO_A4K61Ngn55IV-3hzrVgHaHa?pid=ImgDet&rs=1',
+'coordinates' => DB::raw("POINT(-8.721415, 115.168634)"),
+'price' => random_int(50000, 500000),
+'destination_id' => Destination::where('name', 'Bali')->first()->id,
+'type_id' => DB::table('itinerary_types')->where('name', 'Water Activity')->first()->id
+],
+[
+'name' => 'Kuta',
+'description' => 'Famous for its lively nightlife, surfing beaches, and shopping.',
+'image_url' => 'https://3.bp.blogspot.com/-gVUH1iAtm-Q/Uri0UGOrQdI/AAAAAAAAAiw/rV0T3-GHL78/s1600/Sunset-di-Kuta-Bali.jpg',
+'coordinates' => DB::raw("POINT(-8.721415, 115.168634)"),
+'price' => random_int(50000, 500000),
+'destination_id' => Destination::where('name', 'Bali')->first()->id,
+'type_id' => DB::table('itinerary_types')->where('name', 'Water Activity')->first()->id
+],
+[
+'name' => 'Seminyak',
+'description' => 'A more upscale area with trendy boutiques, beach clubs, and fine dining.',
+'image_url' => 'https://th.bing.com/th/id/OIP.ksWsrnv5FjY69vC9doGfKQHaEK?pid=ImgDet&rs=1',
+'coordinates' => DB::raw("POINT(-8.721415, 115.168634)"),
+'price' => random_int(50000, 500000),
+'destination_id' => Destination::where('name', 'Bali')->first()->id,
+'type_id' => DB::table('itinerary_types')->where('name', 'Water Activity')->first()->id
+],
+[
+'name' => 'Canggu',
+'description' => 'A relaxed coastal town popular among surfers and digital nomads.',
+'image_url' => 'https://th.bing.com/th/id/OIP.PLFryVYsK41su22MJnriYAHaFj?pid=ImgDet&rs=1',
+'coordinates' => DB::raw("POINT(-8.721415, 115.168634)"),
+'price' => random_int(50000, 500000),
+'destination_id' => Destination::where('name', 'Bali')->first()->id,
+'type_id' => DB::table('itinerary_types')->where('name', 'Water Activity')->first()->id
+],
+[
+'name' => 'Jimbaran',
+'description' => 'Known for its seafood restaurants and beautiful beaches.',
+'image_url' => 'https://wanderingdejavu.com/wp-content/uploads/2016/05/Rimba_Jimbaran_Bali-7.jpg',
+'coordinates' => DB::raw("POINT(-8.721415, 115.168634)"),
+'price' => random_int(50000, 500000),
+'destination_id' => Destination::where('name', 'Bali')->first()->id,
+'type_id' => DB::table('itinerary_types')->where('name', 'Water Activity')->first()->id
+],
+[
+'name' => 'Nusa Dua',
+'description' => 'Home to luxurious resorts and pristine white-sand beaches.',
+'image_url' => 'https://th.bing.com/th/id/OIP.f6-RQJJbLu2oae_yW16xnAHaE7?pid=ImgDet&rs=1',
+'coordinates' => DB::raw("POINT(-8.721415, 115.168634)"),
+'price' => random_int(50000, 500000),
+'destination_id' => Destination::where('name', 'Bali')->first()->id,
+'type_id' => DB::table('itinerary_types')->where('name', 'Water Activity')->first()->id
+],
+[
+'name' => 'Uluwatu',
+'description' => 'Offers stunning clifftop views, the Uluwatu Temple, and great surfing.',
+'image_url' => 'https://th.bing.com/th/id/R.f5b2c5dacccd8678725866f574e68e48?rik=d5VrgEjX%2bOEk2g&riu=http%3a%2f%2ftraveldigg.com%2fwp-content%2fuploads%2f2016%2f08%2fUluwatu-Temple-Bali-At-Sunset.jpg&ehk=hGwDOBhcRXzSSfOyIeCz0wu1DTjDiuWOse7FCaD5QDI%3d&risl=&pid=ImgRaw&r=0',
+'coordinates' => DB::raw("POINT(-8.721415, 115.168634)"),
+'price' => random_int(50000, 500000),
+'destination_id' => Destination::where('name', 'Bali')->first()->id,
+'type_id' => DB::table('itinerary_types')->where('name', 'Water Activity')->first()->id
+],
+[
+'name' => 'Sanur',
+'description' => 'A laid-back beach town with a great sunrise view and water sports.',
+'image_url' => 'https://imgcld.yatra.com/ytimages/image/upload/v1462338114/Bali-Sanur1.jpg',
+'coordinates' => DB::raw("POINT(-8.721415, 115.168634)"),
+'price' => random_int(50000, 500000),
+'destination_id' => Destination::where('name', 'Bali')->first()->id,
+'type_id' => DB::table('itinerary_types')->where('name', 'Water Activity')->first()->id
+],
+[
+'name' => 'Amed',
+'description' => 'A peaceful coastal village known for its snorkeling and diving spots.',
+'image_url' => 'https://s1.it.atcdn.net/wp-content/uploads/2014/02/Amed-Bali.jpg',
+'coordinates' => DB::raw("POINT(-8.721415, 115.168634)"),
+'price' => random_int(50000, 500000),
+'destination_id' => Destination::where('name', 'Bali')->first()->id,
+'type_id' => DB::table('itinerary_types')->where('name', 'Water Activity')->first()->id
+],
+[
+'name' => 'Lovina',
+'description' => 'Located in the north, known for dolphin watching and hot springs.',
+'image_url' => 'https://i.pinimg.com/originals/fc/f1/8e/fcf18e87e882dd06db02c55a110b71f6.jpg',
+'coordinates' => DB::raw("POINT(-8.721415, 115.168634)"),
+'price' => random_int(50000, 500000),
+'destination_id' => Destination::where('name', 'Bali')->first()->id,
+'type_id' => DB::table('itinerary_types')->where('name', 'Water Activity')->first()->id
+],
+[
+'name' => 'Gili Islands',
+'description' => 'A group of three small islands near Bali, known for their snorkeling and diving spots.',
+'image_url' => 'https://forsomethingmore.com/wp-content/uploads/2020/06/Gili-Islands-Bali-COVER.jpg',
+'coordinates' => DB::raw("POINT(-8.721415, 115.168634)"),
+'price' => random_int(50000, 500000),
+'destination_id' => Destination::where('name', 'Bali')->first()->id,
+'type_id' => DB::table('itinerary_types')->where('name', 'Water Activity')->first()->id
+],
+[
+'name' => 'Nusa Penida',
+'description' => 'A rugged island with dramatic landscapes and amazing viewpoints.',
+'image_url' => 'https://i2.wp.com/travel-lush.com/wp-content/uploads/2015/07/Nusa-Penida-cliffs-smaller.jpg',
+'coordinates' => DB::raw("POINT(-8.721415, 115.168634)"),
+'price' => random_int(50000, 500000),
+'destination_id' => Destination::where('name', 'Bali')->first()->id,
+'type_id' => DB::table('itinerary_types')->where('name', 'Water Activity')->first()->id
+],
+[
+'name' => 'Tegallalang',
+'description' => 'Famous for its picturesque rice terraces.',
+'image_url' => 'https://4.bp.blogspot.com/-92kbeEN9mTY/VOkqd0lkodI/AAAAAAABGJ8/K_4Vepy4x8M/s1600/PC071550.jpg',
+'coordinates' => DB::raw("POINT(-8.721415, 115.168634)"),
+'price' => random_int(50000, 500000),
+'destination_id' => Destination::where('name', 'Bali')->first()->id,
+'type_id' => DB::table('itinerary_types')->where('name', 'Water Activity')->first()->id
+],
+[
+'name' => 'Tirta Gangga',
+'description' => 'Home to a beautiful water palace and lush gardens.',
+'image_url' => 'https://th.bing.com/th/id/OIP.b3S5YFVteiSCVdVwbaMuoQHaE7?pid=ImgDet&rs=1',
+'coordinates' => DB::raw("POINT(-8.721415, 115.168634)"),
+'price' => random_int(50000, 500000),
+'destination_id' => Destination::where('name', 'Bali')->first()->id,
+'type_id' => DB::table('itinerary_types')->where('name', 'Water Activity')->first()->id
+],
+[
+'name' => 'Sidemen',
+'description' => 'A serene village surrounded by rice paddies and great for trekking.',
+'image_url' => 'https://pix10.agoda.net/hotelImages/4437100/-1/61e48b243faf99ab5f23b3d8a3d2f7aa.jpg?s=1024x768',
+'coordinates' => DB::raw("POINT(-8.721415, 115.168634)"),
+'price' => random_int(50000, 500000),
+'destination_id' => Destination::where('name', 'Bali')->first()->id,
+'type_id' => DB::table('itinerary_types')->where('name', 'Water Activity')->first()->id
+],
